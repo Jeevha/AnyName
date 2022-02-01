@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-01T11:01:01 IST" name="Default suite" finished-at="2022-02-01T11:02:53 IST" duration-ms="111724">
+    <groups>
+    </groups>
+    <test started-at="2022-02-01T11:01:01 IST" name="Default test" finished-at="2022-02-01T11:02:53 IST" duration-ms="111724">
+      <class name="testPackage.TestClass">
+        <test-method is-config="true" signature="chromelaunch()[pri:0, instance:testPackage.TestClass@97e93f1]" started-at="2022-02-01T11:01:01 IST" name="chromelaunch" finished-at="2022-02-01T11:02:01 IST" duration-ms="60293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chromelaunch -->
+        <test-method signature="Customer_Enroll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testPackage.TestClass@97e93f1]" started-at="2022-02-01T11:02:07 IST" name="Customer_Enroll" description="Dental Customer Enroll" data-provider="Enroll_Names" finished-at="2022-02-01T11:02:14 IST" duration-ms="6751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Demon456@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10211990]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customer_Enroll -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testPackage.TestClass@97e93f1]" started-at="2022-02-01T11:02:14 IST" name="getResult" finished-at="2022-02-01T11:02:17 IST" duration-ms="3372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Customer_Enroll status=SUCCESS method=TestClass.Customer_Enroll(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testPackage.TestClass@97e93f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Select_plan(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testPackage.TestClass@97e93f1]" started-at="2022-02-01T11:02:17 IST" name="Select_plan" description="Enter address and select plan coverage" data-provider="Slct_plan" finished-at="2022-02-01T11:02:30 IST" duration-ms="12523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JKL Appartments]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Los Angeles]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[90005.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Select_plan -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testPackage.TestClass@97e93f1]" started-at="2022-02-01T11:02:30 IST" name="getResult" finished-at="2022-02-01T11:02:30 IST" duration-ms="608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Select_plan status=SUCCESS method=TestClass.Select_plan(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testPackage.TestClass@97e93f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Reenter_Name(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:testPackage.TestClass@97e93f1]" started-at="2022-02-01T11:02:31 IST" name="Reenter_Name" description="Re-enter customer data&#039;s" data-provider="Re-enter_Customer_data" finished-at="2022-02-01T11:02:35 IST" duration-ms="4604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Demon456@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10211990]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reenter_Name -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testPackage.TestClass@97e93f1]" started-at="2022-02-01T11:02:35 IST" name="getResult" finished-at="2022-02-01T11:02:36 IST" duration-ms="340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Reenter_Name status=SUCCESS method=TestClass.Reenter_Name(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:testPackage.TestClass@97e93f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Payment(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testPackage.TestClass@97e93f1]" started-at="2022-02-01T11:02:36 IST" name="Payment" description="Account payment data&#039;s" data-provider="Account_Payment_data" finished-at="2022-02-01T11:02:44 IST" duration-ms="8290" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Demon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[S]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Demon456@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10211990]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:testPackage.TestClass@97e93f1]" started-at="2022-02-01T11:02:44 IST" name="getResult" finished-at="2022-02-01T11:02:44 IST" duration-ms="360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Payment status=SUCCESS method=TestClass.Payment(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:testPackage.TestClass@97e93f1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="driverclose()[pri:0, instance:testPackage.TestClass@97e93f1]" started-at="2022-02-01T11:02:44 IST" name="driverclose" finished-at="2022-02-01T11:02:53 IST" duration-ms="8427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverclose -->
+      </class> <!-- testPackage.TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
